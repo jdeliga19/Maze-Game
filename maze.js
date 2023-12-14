@@ -165,7 +165,7 @@ class Cell {
     // Additions and subtractions added so the highlighted cell does cover the walls
     let x = (this.colNum * this.parentSize) / columns + 1;
     let y = (this.rowNum * this.parentSize) / columns + 1;
-    ctx.fillStyle = "purple";
+    ctx.fillStyle = "red";
     ctx.fillRect(
       x,
       y,
@@ -203,7 +203,7 @@ class Cell {
     let y = (this.rowNum * size) / rows;
     // console.log(`x =${x}`);
     // console.log(`y =${y}`);
-    ctx.strokeStyle = "#ffffff";
+    ctx.strokeStyle = "#FFFF00";
     ctx.fillStyle = "black";
     ctx.lineWidth = 2;
     if (this.walls.topWall) this.drawTopWall(x, y, size, columns, rows);
