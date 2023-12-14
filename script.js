@@ -165,7 +165,7 @@ class Cell {
     // Additions and subtractions added so the highlighted cell does cover the walls
     let x = (this.colNum * this.parentSize) / columns + 1;
     let y = (this.rowNum * this.parentSize) / columns + 1;
-    ctx.fillStyle = "purple";
+    ctx.fillStyle = "red";
     ctx.fillRect(
       x,
       y,
